@@ -186,6 +186,16 @@ body {
             }
         }
     }
+    .hero {
+        height: 300px;
+        max-height: 40vh;
+        background-color: $blue-gray;
+        h1 {
+            font-size: 36px;
+            font-weight: 200;
+            color: #FFF;
+        }
+    }
 }
 
 @media (min-width: $screen-sm) {
